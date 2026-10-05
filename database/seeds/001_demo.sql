@@ -1,0 +1,6 @@
+-- Seed de demonstração.
+-- O banco físico já acompanha este projeto.
+-- 10 lojas, 10 categorias, 35 produtos e 3 usuários.
+-- ADMIN: admin@ondetem.local / Admin@123
+-- OPERADOR: operador@ondetem.local / Operador@123
+-- CLIENTE: cliente@ondetem.local / Cliente@123

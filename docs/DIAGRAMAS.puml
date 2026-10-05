@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+actor Cliente
+actor Operador
+actor Administrador
+rectangle OndeTem {
+usecase "Consultar produtos" as A
+usecase "Pesquisar/filtrar" as B
+usecase "Cadastrar conta" as C
+usecase "Login" as D
+usecase "Cadastrar/editar produto" as E
+usecase "Alterar status" as F
+usecase "Excluir com dupla confirmação" as G
+usecase "Auditoria" as H
+}
+Cliente--A
+Cliente--B
+Cliente--C
+Cliente--D
+Operador--D
+Operador--E
+Operador--F
+Administrador--D
+Administrador--E
+Administrador--F
+Administrador--G
+Administrador--H
+@enduml
